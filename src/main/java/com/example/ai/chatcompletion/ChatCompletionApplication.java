@@ -24,8 +24,8 @@ public class ChatCompletionApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(ChatCompletionApplication.class, args);
-        String apiKey = "ANNgZZXb8kD8SSHLReWVaGr3CJHAsUmRvC6jIAKy0LNQeeoIGRvXJQQJ99BEACHYHv6XJ3w3AAAAACOGcTl0";
-        String endpoint = "https://ai-andresvargas3736ai743028576454.openai.azure.com/";
+        String apiKey = "{{CHANGE_ME}}";
+        String endpoint =  "{{CHANGE_ME}}";
         String model = "gpt-4.1";
         String deploymentName = "gpt-4";
         OpenAIClient client = new OpenAIClientBuilder()
